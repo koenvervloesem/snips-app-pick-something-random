@@ -2,7 +2,7 @@
 With this [Snips](https://snips.ai/) skill, you can ask for random numbers and dates, to flip a coin and to roll a die or multiple dice.
 
 ## Installation
-The easiest way to install this skill is by adding the Snips app [Pick something random](TODO) to your assistant in the [Snips Console](https://console.snips.ai).
+The easiest way to install this skill is by adding the Snips app [Pick something random](https://console.snips.ai/store/en/skill_NmlgOeBBO13) to your assistant in the [Snips Console](https://console.snips.ai).
 
 ## Usage
 This app recognizes the following intents:
