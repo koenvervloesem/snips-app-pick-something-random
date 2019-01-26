@@ -10,6 +10,7 @@ from datetime import date
 from hermes_python.hermes import Hermes
 from hermes_python import ontology
 import tools_pick_something_random as tools
+import toml
 
 # Dice characteristics
 MAX_DICE = 10  # The maximum number of dice the skill will roll.
@@ -27,13 +28,6 @@ RESULT_NEGATIVE_DICE = "Are you trying to trick me? I can't throw a negative num
 RESULT_ZERO_DICE = "I threw zero dice. Have you heard them fall?"
 RESULT_DICE_NO_INTEGER = "Are you trying to trick me? I can't throw a non-integer number of dice, obviously."
 AND = ", and "
-
-# If this skill is supposed to run on the satellite,
-# please get this mqtt connection info from <config.ini>
-# Hint: MQTT server is always running on the master device
-MQTT_IP_ADDR = "localhost"
-MQTT_PORT = 1883
-MQTT_ADDR = "{}:{}".format(MQTT_IP_ADDR, str(MQTT_PORT))
 
 
 class PickSomethingRandom(object):
@@ -150,7 +144,14 @@ class PickSomethingRandom(object):
 
     def start_blocking(self):
         """Register callback function and start MQTT"""
-        with Hermes(MQTT_ADDR) as hermes:
+        # Get the MQTT host and port from /etc/snips.toml.
+        try:
+            mqtt_addr = toml.load('/etc/snips.toml')['snips-common']['mqtt']
+        except KeyError:
+            # If the mqtt key doesn't exist, use the default value.
+            mqtt_addr = 'localhost:1883'
+
+        with Hermes(mqtt_addr) as hermes:
             hermes.subscribe_intents(self.master_callback).start()
 
 
