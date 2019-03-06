@@ -8,7 +8,7 @@ coin flips, dates and dice rolls.
 import random
 from datetime import date
 from hermes_python.hermes import Hermes
-from hermes_python import ontology
+from hermes_python.ontology.dialogue import InstantTimeValue, TimeIntervalValue
 import tools_pick_something_random as tools
 import toml
 
@@ -105,7 +105,7 @@ class PickSomethingRandom(object):
         if intent_message.slots.period:
             # The user specified a snips/datetime entity.
             period = intent_message.slots.period.first()
-            if isinstance(period, ontology.InstantTimeValue):
+            if isinstance(period, InstantTimeValue):
                 # Test the grain of the 'instant' time value.
                 (start_date, end_date) = tools.get_period_from_grainy_time(period)
                 if start_date == end_date:
@@ -113,7 +113,7 @@ class PickSomethingRandom(object):
                     result_sentence = RESULT_DATE_ALREADY_PICKED
                 else:
                     result_sentence = tools.random_date(start_date, end_date).strftime(RESULT_MONTH_DAY)
-            elif isinstance(period, ontology.TimeIntervalValue):
+            elif isinstance(period, TimeIntervalValue):
                 # The user explicitly specified a time period.
                 # TODO: What if from_date or to_date are missing?
                 start_date = tools.string_to_date(period.from_date)
