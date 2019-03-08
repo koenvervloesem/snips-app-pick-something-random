@@ -1,3 +1,1 @@
-# Needed for Snips platform 1.1.0 (0.61.1) 
-hermes-python>=0.3.3
-toml
+snipskit>=0.0.2

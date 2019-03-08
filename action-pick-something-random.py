@@ -7,10 +7,11 @@ coin flips, dates and dice rolls.
 
 import random
 from datetime import date
-from hermes_python.hermes import Hermes
+
 from hermes_python.ontology.dialogue import InstantTimeValue, TimeIntervalValue
+from snipskit.apps import HermesSnipsApp
+from snipskit.app_decorators import intent
 import tools_pick_something_random as tools
-import toml
 
 # Dice characteristics
 MAX_DICE = 10  # The maximum number of dice the skill will roll.
@@ -30,17 +31,15 @@ RESULT_DICE_NO_INTEGER = "Are you trying to trick me? I can't throw a non-intege
 AND = ", and "
 
 
-class PickSomethingRandom(object):
+class PickSomethingRandom(HermesSnipsApp):
     """This skill lets you ask for random numbers."""
 
-    def __init__(self):
+    def initialize(self):
         """Initialize the skill."""
 
         random.seed()
 
-        # start listening to MQTT
-        self.start_blocking()
-
+    @intent('koan:FlipCoin')
     def flip_coin_callback(self, hermes, intent_message):
         """Callback for intent FlipCoin"""
 
@@ -48,6 +47,7 @@ class PickSomethingRandom(object):
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
 
+    @intent('koan:RollDice')
     def roll_dice_callback(self, hermes, intent_message):
         """Callback for intent RollDice"""
 
@@ -79,6 +79,7 @@ class PickSomethingRandom(object):
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
 
+    @intent('koan:RandomNumber')
     def random_number_callback(self, hermes, intent_message):
         """Callback for intent RandomNumber"""
 
@@ -97,6 +98,7 @@ class PickSomethingRandom(object):
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
 
+    @intent('koan:RandomDate')
     def random_date_callback(self, hermes, intent_message):
         """Callback for intent RandomDate"""
 
@@ -127,32 +129,6 @@ class PickSomethingRandom(object):
             result_sentence = tools.random_date(start_date, end_date).strftime(RESULT_MONTH_DAY)
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
-
-    def master_callback(self, hermes, intent_message):
-        """
-        Master callback function, triggered everytime an intent is recognized.
-        """
-        coming_intent = intent_message.intent.intent_name
-        if coming_intent == 'koan:FlipCoin':
-            self.flip_coin_callback(hermes, intent_message)
-        elif coming_intent == 'koan:RandomDate':
-            self.random_date_callback(hermes, intent_message)
-        elif coming_intent == 'koan:RandomNumber':
-            self.random_number_callback(hermes, intent_message)
-        elif coming_intent == 'koan:RollDice':
-            self.roll_dice_callback(hermes, intent_message)
-
-    def start_blocking(self):
-        """Register callback function and start MQTT"""
-        # Get the MQTT host and port from /etc/snips.toml.
-        try:
-            mqtt_addr = toml.load('/etc/snips.toml')['snips-common']['mqtt']
-        except KeyError:
-            # If the mqtt key doesn't exist, use the default value.
-            mqtt_addr = 'localhost:1883'
-
-        with Hermes(mqtt_addr) as hermes:
-            hermes.subscribe_intents(self.master_callback).start()
 
 
 if __name__ == "__main__":
