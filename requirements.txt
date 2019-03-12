@@ -1,1 +1,1 @@
-snipskit>=0.0.3
+snipskit>=0.0.4
