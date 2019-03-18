@@ -52,7 +52,7 @@ class PickSomethingRandom(object):
         """Callback for intent RollDice"""
 
         result_sentence = ""
-        if intent_message.slots.amount:
+        if intent_message.slots and intent_message.slots.amount:
             # The user specified an amount of dice
             amount = intent_message.slots.amount.first().value
             if not amount.is_integer():
@@ -102,7 +102,7 @@ class PickSomethingRandom(object):
 
         result_sentence = ""
 
-        if intent_message.slots.period:
+        if intent_message.slots and intent_message.slots.period:
             # The user specified a snips/datetime entity.
             period = intent_message.slots.period.first()
             if isinstance(period, InstantTimeValue):
