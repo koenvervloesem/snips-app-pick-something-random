@@ -10,7 +10,7 @@ from datetime import date
 
 from hermes_python.ontology.dialogue import InstantTimeValue, TimeIntervalValue
 from snipskit.apps import HermesSnipsApp
-from snipskit.app_decorators import intent
+from snipskit.decorators.hermes import intent
 import tools_pick_something_random as tools
 
 # Dice characteristics
