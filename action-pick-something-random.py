@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-This module contains a Snips skill that lets you ask for random numbers,
+This module contains a Snips app that lets you ask for random numbers,
 coin flips, dates and dice rolls.
 """
 
@@ -13,7 +13,7 @@ import tools_pick_something_random as tools
 import toml
 
 # Dice characteristics
-MAX_DICE = 10  # The maximum number of dice the skill will roll.
+MAX_DICE = 10  # The maximum number of dice the app will roll.
 DICE_FACES = 6  # The number of faces on the dice.
 
 # Result sentences and their parts:
@@ -31,10 +31,10 @@ AND = ", and "
 
 
 class PickSomethingRandom(object):
-    """This skill lets you ask for random numbers."""
+    """This Snips app lets you ask for random numbers."""
 
     def __init__(self):
-        """Initialize the skill."""
+        """Initialize the app."""
 
         random.seed()
 

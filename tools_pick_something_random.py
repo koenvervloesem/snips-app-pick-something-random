@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This module contains some utility functions used by the
-'Pick something random' skill.
+'Pick something random' app.
 """
 
 from calendar import monthrange
