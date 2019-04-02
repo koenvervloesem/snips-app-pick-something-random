@@ -129,13 +129,13 @@ class PickSomethingRandom(object):
         Master callback function, triggered everytime an intent is recognized.
         """
         coming_intent = intent_message.intent.intent_name
-        if coming_intent == self.i18n.FLIP_COIN:
+        if coming_intent == self.i18n.INTENT_FLIP_COIN:
             self.flip_coin_callback(hermes, intent_message)
-        elif coming_intent == self.i18n.RANDOM_DATE:
+        elif coming_intent == self.i18n.INTENT_RANDOM_DATE:
             self.random_date_callback(hermes, intent_message)
-        elif coming_intent == self.i18n.RANDOM_NUMBER:
+        elif coming_intent == self.i18n.INTENT_RANDOM_NUMBER:
             self.random_number_callback(hermes, intent_message)
-        elif coming_intent == self.i18n.ROLL_DICE:
+        elif coming_intent == self.i18n.INTENT_ROLL_DICE:
             self.roll_dice_callback(hermes, intent_message)
 
     def start_blocking(self):
