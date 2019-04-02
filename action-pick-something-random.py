@@ -5,8 +5,11 @@ This module contains a Snips app that lets you ask for random numbers,
 coin flips, dates and dice rolls.
 """
 
-import random
+import importlib
+import json
 from datetime import date
+import random
+
 from hermes_python.hermes import Hermes
 from hermes_python.ontology.dialogue import InstantTimeValue, TimeIntervalValue
 import tools_pick_something_random as tools
@@ -15,19 +18,6 @@ import toml
 # Dice characteristics
 MAX_DICE = 10  # The maximum number of dice the app will roll.
 DICE_FACES = 6  # The number of faces on the dice.
-
-# Result sentences and their parts:
-RESULT_HEADS = "Heads"
-RESULT_TAILS = "Tails"
-RESULT_MONTH_DAY = "%B %-d"
-RESULT_DATE_ALREADY_PICKED = "It looks like you already picked a date. Are you trying to trick me?"
-RESULT_NUMBERS_WRONG_ORDER = "Is this a trick? {} is smaller than {}."
-RESULT_ONE_NUMBER = "It looks like you already picked a number. Are you trying to trick me?"
-RESULT_TOO_MANY_DICE = "I'm sorry but I don't have {} dice to roll."
-RESULT_NEGATIVE_DICE = "Are you trying to trick me? I can't throw a negative number of dice, obviously."
-RESULT_ZERO_DICE = "I threw zero dice. Have you heard them fall?"
-RESULT_DICE_NO_INTEGER = "Are you trying to trick me? I can't throw a non-integer number of dice, obviously."
-AND = ", and "
 
 
 class PickSomethingRandom(object):
@@ -38,13 +28,19 @@ class PickSomethingRandom(object):
 
         random.seed()
 
+        # Use the assistant's language.
+        with open("/usr/share/snips/assistant/assistant.json") as json_file:
+            language = json.load(json_file)["language"]
+
+        self.i18n = importlib.import_module("translations." + language)
+
         # start listening to MQTT
         self.start_blocking()
 
     def flip_coin_callback(self, hermes, intent_message):
         """Callback for intent FlipCoin"""
 
-        result_sentence = random.choice([RESULT_HEADS, RESULT_TAILS])
+        result_sentence = random.choice([self.i18n.RESULT_HEADS, self.i18n.RESULT_TAILS])
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
 
@@ -57,22 +53,22 @@ class PickSomethingRandom(object):
             amount = intent_message.slots.amount.first().value
             if not amount.is_integer():
                 # Not an integer number
-                result_sentence = RESULT_DICE_NO_INTEGER
+                result_sentence = self.i18n.RESULT_DICE_NO_INTEGER
             elif amount > MAX_DICE:
                 # Too many dice
-                result_sentence = RESULT_TOO_MANY_DICE.format(int(amount))
+                result_sentence = self.i18n.RESULT_TOO_MANY_DICE.format(int(amount))
             elif amount == 0:
                 # No dice
-                result_sentence = RESULT_ZERO_DICE
+                result_sentence = self.i18n.RESULT_ZERO_DICE
             elif amount < 0:
                 # Negative number of dice
-                result_sentence = RESULT_NEGATIVE_DICE
+                result_sentence = self.i18n.RESULT_NEGATIVE_DICE
             else:
                 # And finally a sensible number of dice...
                 dice_rolls = [str(random.randint(1, DICE_FACES))
                               for number in range(0, int(amount))]
                 last = dice_rolls.pop()
-                result_sentence = ", ".join(dice_rolls) + AND + last
+                result_sentence = ", ".join(dice_rolls) + self.i18n.AND + last
         else:
             # Roll one die
             result_sentence = str(random.randint(1, DICE_FACES))
@@ -88,10 +84,10 @@ class PickSomethingRandom(object):
         max_number = intent_message.slots.max.first().value
 
         if min_number == max_number:
-            result_sentence = RESULT_ONE_NUMBER
+            result_sentence = self.i18n.RESULT_ONE_NUMBER
         elif min_number > max_number:
-            result_sentence = RESULT_NUMBERS_WRONG_ORDER.format(max_number,
-                                                                min_number)
+            result_sentence = self.i18n.RESULT_NUMBERS_WRONG_ORDER.format(max_number,
+                                                                          min_number)
         else:
             result_sentence = str(random.randint(min_number, max_number))
 
@@ -110,21 +106,21 @@ class PickSomethingRandom(object):
                 (start_date, end_date) = tools.get_period_from_grainy_time(period)
                 if start_date == end_date:
                     # There's no date to pick, the user already picked one :-)
-                    result_sentence = RESULT_DATE_ALREADY_PICKED
+                    result_sentence = self.i18n.RESULT_DATE_ALREADY_PICKED
                 else:
-                    result_sentence = tools.random_date(start_date, end_date).strftime(RESULT_MONTH_DAY)
+                    result_sentence = tools.random_date(start_date, end_date).strftime(self.i18n.RESULT_MONTH_DAY)
             elif isinstance(period, TimeIntervalValue):
                 # The user explicitly specified a time period.
                 # TODO: What if from_date or to_date are missing?
                 start_date = tools.string_to_date(period.from_date)
                 end_date = tools.string_to_date(period.to_date)
-                result_sentence = tools.random_date(start_date, end_date).strftime(RESULT_MONTH_DAY)
+                result_sentence = tools.random_date(start_date, end_date).strftime(self.i18n.RESULT_MONTH_DAY)
         else:
             # The user didn't specify any time period, so we return a random month and day.
             # Choose a leap year so February 29 is a possible result.
             start_date = date(2016, 1, 1)
             end_date = date(2016, 12, 31)
-            result_sentence = tools.random_date(start_date, end_date).strftime(RESULT_MONTH_DAY)
+            result_sentence = tools.random_date(start_date, end_date).strftime(self.i18n.RESULT_MONTH_DAY)
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
 
@@ -133,13 +129,13 @@ class PickSomethingRandom(object):
         Master callback function, triggered everytime an intent is recognized.
         """
         coming_intent = intent_message.intent.intent_name
-        if coming_intent == 'koan:FlipCoin':
+        if coming_intent == self.i18n.FLIP_COIN:
             self.flip_coin_callback(hermes, intent_message)
-        elif coming_intent == 'koan:RandomDate':
+        elif coming_intent == self.i18n.RANDOM_DATE:
             self.random_date_callback(hermes, intent_message)
-        elif coming_intent == 'koan:RandomNumber':
+        elif coming_intent == self.i18n.RANDOM_NUMBER:
             self.random_number_callback(hermes, intent_message)
-        elif coming_intent == 'koan:RollDice':
+        elif coming_intent == self.i18n.ROLL_DICE:
             self.roll_dice_callback(hermes, intent_message)
 
     def start_blocking(self):
