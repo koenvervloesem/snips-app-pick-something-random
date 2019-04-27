@@ -17,7 +17,7 @@ import toml
 
 # Dice characteristics
 MAX_DICE = 10  # The maximum number of dice the app will roll.
-DICE_FACES = 6  # The number of faces on the dice.
+DICE_FACES = 6  # The default number of faces on the dice.
 
 
 class PickSomethingRandom(object):
@@ -48,37 +48,58 @@ class PickSomethingRandom(object):
         """Callback for intent RollDice"""
 
         result_sentence = ""
-        if intent_message.slots and intent_message.slots.amount:
-            # The user specified an amount of dice
-            amount = intent_message.slots.amount.first().value
-            if not amount.is_integer():
-                # Not an integer number
-                result_sentence = self.i18n.RESULT_DICE_NO_INTEGER
-            elif amount > MAX_DICE:
-                # Too many dice
-                result_sentence = self.i18n.RESULT_TOO_MANY_DICE.format(int(amount))
-            elif amount == 0:
-                # No dice
-                result_sentence = self.i18n.RESULT_ZERO_DICE
-            elif amount < 0:
-                # Negative number of dice
-                result_sentence = self.i18n.RESULT_NEGATIVE_DICE
-            else:
-                # And finally a sensible number of dice...
-                dice_rolls = [str(random.randint(1, DICE_FACES))
-                              for number in range(0, int(amount))]
-                last = dice_rolls.pop()
-                result_sentence = ", ".join(dice_rolls) + self.i18n.AND + last
-        else:
-            # Roll one die
-            result_sentence = str(random.randint(1, DICE_FACES))
 
-        hermes.publish_end_session(intent_message.session_id, result_sentence)
+        # Check the number of faces
+        if intent_message.slots and intent_message.slots.faces:
+            # The user specified an amount of faces
+            faces = intent_message.slots.faces.first().value
+            if not faces.is_integer():
+                # Not an integer number
+                result_sentence = self.i18n.RESULT_FACES_NO_INTEGER
+            elif faces == 0:
+                # No faces
+                result_sentence = self.i18n.RESULT_ZERO_FACES
+            elif faces < 0:
+                # Negative number of faces
+                result_sentence = self.i18n.RESULT_NEGATIVE_FACES
+        else:
+            # Take the default number of faces
+            faces = DICE_FACES
+
+        # If the number of faces is invalid, say an error message
+        if result_sentence:
+            hermes.publish_end_session(intent_message.session_id, result_sentence)
+        else:
+
+            if intent_message.slots and intent_message.slots.amount:
+                # The user specified an amount of dice
+                amount = intent_message.slots.amount.first().value
+                if not amount.is_integer():
+                    # Not an integer number
+                    result_sentence = self.i18n.RESULT_DICE_NO_INTEGER
+                elif amount > MAX_DICE:
+                    # Too many dice
+                    result_sentence = self.i18n.RESULT_TOO_MANY_DICE.format(int(amount))
+                elif amount == 0:
+                    # No dice
+                    result_sentence = self.i18n.RESULT_ZERO_DICE
+                elif amount < 0:
+                    # Negative number of dice
+                    result_sentence = self.i18n.RESULT_NEGATIVE_DICE
+                else:
+                    # And finally a sensible number of dice...
+                    dice_rolls = [str(random.randint(1, faces))
+                                  for number in range(0, int(amount))]
+                    last = dice_rolls.pop()
+                    result_sentence = ", ".join(dice_rolls) + self.i18n.AND + last
+            else:
+                # Roll one die
+                result_sentence = str(random.randint(1, faces))
+
+            hermes.publish_end_session(intent_message.session_id, result_sentence)
 
     def random_number_callback(self, hermes, intent_message):
         """Callback for intent RandomNumber"""
-
-        result_sentence = ""
 
         min_number = intent_message.slots.min.first().value
         max_number = intent_message.slots.max.first().value
@@ -95,8 +116,6 @@ class PickSomethingRandom(object):
 
     def random_date_callback(self, hermes, intent_message):
         """Callback for intent RandomDate"""
-
-        result_sentence = ""
 
         if intent_message.slots and intent_message.slots.period:
             # The user specified a snips/datetime entity.
