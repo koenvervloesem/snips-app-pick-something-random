@@ -8,8 +8,9 @@ python:
 
 install:
   - ./setup.sh
-  - pip3 install bashate
+  - pip3 install bashate pylint
 
 script:
   - shellcheck setup.sh
   - bashate setup.sh
+  - pylint -E *.py
