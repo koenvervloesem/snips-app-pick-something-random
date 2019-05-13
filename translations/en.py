@@ -7,8 +7,8 @@ of the Pick something random app.
 RESULT_HEADS = "Heads"
 RESULT_TAILS = "Tails"
 # See the following documentation for the format codes:
-# https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
-RESULT_MONTH_DAY = "%B %-d"
+# https://arrow.readthedocs.io/en/latest/#format
+RESULT_MONTH_DAY = "MMMM D"
 RESULT_DATE_ALREADY_PICKED = "It looks like you already picked a date. Are you trying to trick me?"
 RESULT_NUMBERS_WRONG_ORDER = "Is this a trick? {} is smaller than {}."
 RESULT_ONE_NUMBER = "It looks like you already picked a number. Are you trying to trick me?"

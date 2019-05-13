@@ -10,6 +10,7 @@ import json
 from datetime import date
 import random
 
+import arrow
 from hermes_python.hermes import Hermes
 from hermes_python.ontology.dialogue import InstantTimeValue, TimeIntervalValue
 import tools_pick_something_random as tools
@@ -30,9 +31,9 @@ class PickSomethingRandom(object):
 
         # Use the assistant's language.
         with open("/usr/share/snips/assistant/assistant.json") as json_file:
-            language = json.load(json_file)["language"]
+            self.language = json.load(json_file)["language"]
 
-        self.i18n = importlib.import_module("translations." + language)
+        self.i18n = importlib.import_module("translations." + self.language)
 
         # start listening to MQTT
         self.start_blocking()
@@ -139,7 +140,8 @@ class PickSomethingRandom(object):
             # Choose a leap year so February 29 is a possible result.
             start_date = date(2016, 1, 1)
             end_date = date(2016, 12, 31)
-            result_sentence = tools.random_date(start_date, end_date).strftime(self.i18n.RESULT_MONTH_DAY)
+            random_date = tools.random_date(start_date, end_date)
+            result_sentence = arrow.get(random_date).format(self.i18n.RESULT_MONTH_DAY, locale=self.language)
 
         hermes.publish_end_session(intent_message.session_id, result_sentence)
 
