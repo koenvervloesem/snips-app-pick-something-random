@@ -7,7 +7,7 @@ of the Pick something random app.
 RESULT_HEADS = "Pile"
 RESULT_TAILS = "Face"
 # See the following documentation for the format codes:
-# https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
+# https://arrow.readthedocs.io/en/latest/#format
 RESULT_MONTH_DAY = "D MMMM"
 RESULT_DATE_ALREADY_PICKED = "On dirait que vous avez déjà choisi une date. Essayez-vous de me piéger?"
 RESULT_NUMBERS_WRONG_ORDER = "Est-ce un piège? {} est plus petit que {}."
