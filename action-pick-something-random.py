@@ -128,13 +128,15 @@ class PickSomethingRandom(object):
                     # There's no date to pick, the user already picked one :-)
                     result_sentence = self.i18n.RESULT_DATE_ALREADY_PICKED
                 else:
-                    result_sentence = tools.random_date(start_date, end_date).strftime(self.i18n.RESULT_MONTH_DAY)
+                    random_date = tools.random_date(start_date, end_date)
+                    result_sentence = arrow.get(random_date).format(self.i18n.RESULT_MONTH_DAY, locale=self.language)
             elif isinstance(period, TimeIntervalValue):
                 # The user explicitly specified a time period.
                 # TODO: What if from_date or to_date are missing?
                 start_date = tools.string_to_date(period.from_date)
                 end_date = tools.string_to_date(period.to_date)
-                result_sentence = tools.random_date(start_date, end_date).strftime(self.i18n.RESULT_MONTH_DAY)
+                random_date = tools.random_date(start_date, end_date)
+                result_sentence = arrow.get(random_date).format(self.i18n.RESULT_MONTH_DAY, locale=self.language)
         else:
             # The user didn't specify any time period, so we return a random month and day.
             # Choose a leap year so February 29 is a possible result.
