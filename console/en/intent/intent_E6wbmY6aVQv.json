@@ -1,0 +1,7468 @@
+{
+  "customIntentData" : {
+    "language" : "en",
+    "utterances" : [ {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please",
+        "range" : {
+          "start" : 24,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the dice, please",
+        "range" : {
+          "start" : 0,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please",
+        "range" : {
+          "start" : 24,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the dice, please",
+        "range" : {
+          "start" : 0,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please",
+        "range" : {
+          "start" : 24,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the dice, please",
+        "range" : {
+          "start" : 0,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 22,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a die",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the die",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 24,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 28
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the die",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a die",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 22,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a die",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the die",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 30,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 26,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 30,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 27,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 30,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 26,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 22,
+          "end" : 25
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 25,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 22,
+          "end" : 25
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 25,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 24,
+          "end" : 35
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 35,
+          "end" : 39
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 39,
+          "end" : 53
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 33,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 36,
+          "end" : 50
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 30,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 35,
+          "end" : 49
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 32
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 32,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 35,
+          "end" : 49
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 24,
+          "end" : 35
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 35,
+          "end" : 41
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 41,
+          "end" : 55
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 34
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 34,
+          "end" : 40
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 40,
+          "end" : 54
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 31
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 31,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 35,
+          "end" : 49
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 33,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 36,
+          "end" : 50
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 24,
+          "end" : 35
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 35,
+          "end" : 40
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 40,
+          "end" : 54
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 33,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 36,
+          "end" : 50
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 30,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 36,
+          "end" : 50
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 32
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 32,
+          "end" : 38
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 38,
+          "end" : 52
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " with ",
+        "range" : {
+          "start" : 22,
+          "end" : 28
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 28,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces dice",
+        "range" : {
+          "start" : 32,
+          "end" : 43
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 33,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 36,
+          "end" : 42
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 30,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 35,
+          "end" : 41
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 32
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 32,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 35,
+          "end" : 41
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 24,
+          "end" : 35
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 35,
+          "end" : 41
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 41,
+          "end" : 47
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 34
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 34,
+          "end" : 40
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 40,
+          "end" : 46
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 33,
+          "end" : 37
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 37,
+          "end" : 43
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 31
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 31,
+          "end" : 34
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 34,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 22,
+          "end" : 33
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 33,
+          "end" : 38
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 38,
+          "end" : 44
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 33
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 33,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 36,
+          "end" : 42
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 30,
+          "end" : 36
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 36,
+          "end" : 42
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 32
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 32,
+          "end" : 38
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 38,
+          "end" : 44
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 27,
+          "end" : 31
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 31,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 24,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 23,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 28,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 24,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 27,
+          "end" : 33
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 33,
+          "end" : 41
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 22,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 28,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 24,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 28,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 22,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 25,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 27,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 32,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 24,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 23,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 29,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 21,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 27,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 22,
+          "end" : 25
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 25,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 23,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 20,
+          "end" : 24
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 27,
+          "end" : 33
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 22,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 22,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 22,
+          "end" : 25
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 25,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 23,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want you to roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 21,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please?",
+        "range" : {
+          "start" : 18,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the dice, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a die, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the die, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please?",
+        "range" : {
+          "start" : 18,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the dice, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a die, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 28
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the die, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please?",
+        "range" : {
+          "start" : 18,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the dice, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a die, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the die, please?",
+        "range" : {
+          "start" : 0,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice?",
+        "range" : {
+          "start" : 16,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the dice?",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a die?",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the die?",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice?",
+        "range" : {
+          "start" : 18,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the dice?",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the die?",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a die?",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice?",
+        "range" : {
+          "start" : 16,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the dice?",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a die?",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the die?",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 24,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 20,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 24,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 21,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 24,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 20,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 22,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 20,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 24,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 21,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 22,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 20,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 18,
+          "end" : 29
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 29,
+          "end" : 33
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 33,
+          "end" : 48
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 30,
+          "end" : 45
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 24,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 29,
+          "end" : 44
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 26,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 29,
+          "end" : 44
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 18,
+          "end" : 29
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 29,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 35,
+          "end" : 50
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 28
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 28,
+          "end" : 34
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 34,
+          "end" : 49
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 25,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 29,
+          "end" : 44
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 30,
+          "end" : 45
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 18,
+          "end" : 29
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 29,
+          "end" : 34
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 34,
+          "end" : 49
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 30,
+          "end" : 45
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 24,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 30,
+          "end" : 45
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please?",
+        "range" : {
+          "start" : 32,
+          "end" : 47
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 16,
+          "end" : 27
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 27,
+          "end" : 31
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 31,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 30,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 24,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 29,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 26,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 29,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 18,
+          "end" : 29
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 29,
+          "end" : 35
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 35,
+          "end" : 42
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 28
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 28,
+          "end" : 34
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 34,
+          "end" : 41
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 27,
+          "end" : 31
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 31,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 25,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 28,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 16,
+          "end" : 27
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 27,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 32,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 27,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 30,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 24,
+          "end" : 30
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 30,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces?",
+        "range" : {
+          "start" : 32,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 21,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 25,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 18,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 17,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 22,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 18,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 21,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 27,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 16,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 22,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 18,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 22,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 19,
+          "end" : 28
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 21,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 26,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 18,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 17,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 23,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 15,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please?",
+        "range" : {
+          "start" : 21,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 19,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 23,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 18,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 17,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 22,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you play D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 18,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 21,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 27,
+          "end" : 28
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 16,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 22,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 16,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 20,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 21,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 24,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 18,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 17,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 23,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "can you roll D ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 15,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : "?",
+        "range" : {
+          "start" : 21,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, will you?",
+        "range" : {
+          "start" : 8,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the dice, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the die, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a die, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 6,
+          "end" : 11
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, will you?",
+        "range" : {
+          "start" : 11,
+          "end" : 27
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the dice, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a die, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the die, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the die, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the dice, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, will you?",
+        "range" : {
+          "start" : 9,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a die, will you?",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a die",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 8,
+          "end" : 11
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 14,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 12,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 6,
+          "end" : 11
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 14,
+          "end" : 17
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 17,
+          "end" : 28
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 13,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 12,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 15,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 12,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 12,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 8,
+          "end" : 19
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 19,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 23,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 22,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 18,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 23,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 19,
+          "end" : 36
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 6,
+          "end" : 11
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 11,
+          "end" : 22
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 22,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 28,
+          "end" : 45
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 20,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 26,
+          "end" : 43
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 17,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 21,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 22,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 18,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 23,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 22,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 9,
+          "end" : 20
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 20,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 26,
+          "end" : 43
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 16,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, will you?",
+        "range" : {
+          "start" : 22,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 16,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 20,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 8,
+          "end" : 11
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 11,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 15,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 12,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 6,
+          "end" : 11
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 14,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 20,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 10,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 14,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 12,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 18,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 9,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", will you?",
+        "range" : {
+          "start" : 15,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 9,
+          "end" : 13
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 13,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 16,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play a die",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play the die",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 18,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw a die",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw the die",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll the die",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 16,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll a die",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 16,
+          "end" : 27
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 27,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 32,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 32,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 25,
+          "end" : 31
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 31,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 18,
+          "end" : 29
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 29,
+          "end" : 33
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 33,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 24,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 27,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 27
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 27,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 32,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 26,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 29,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 25,
+          "end" : 31
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 31,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 32,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 16,
+          "end" : 27
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 27,
+          "end" : 31
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 31,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please play a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 13,
+          "end" : 18
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 21,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      }, {
+        "text" : "five",
+        "range" : {
+          "start" : 12,
+          "end" : 16
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 19,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "please roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please",
+        "range" : {
+          "start" : 9,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the dice, please",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 6,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please",
+        "range" : {
+          "start" : 9,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the dice, please",
+        "range" : {
+          "start" : 0,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the dice, please",
+        "range" : {
+          "start" : 0,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice, please",
+        "range" : {
+          "start" : 9,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a die, please",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 5,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 10,
+          "end" : 15
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the die",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 6,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 10,
+          "end" : 15
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "dice roll, please",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a dice roll, please",
+        "range" : {
+          "start" : 0,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "dice roll",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a dice roll",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a die",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the die",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "die roll, please",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a die roll, please",
+        "range" : {
+          "start" : 0,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "die roll",
+        "range" : {
+          "start" : 0,
+          "end" : 8
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a die roll",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the die",
+        "range" : {
+          "start" : 0,
+          "end" : 12
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the dice",
+        "range" : {
+          "start" : 0,
+          "end" : 13
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice",
+        "range" : {
+          "start" : 8,
+          "end" : 13
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a die",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 12,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 15,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 6,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 12,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 15,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 13,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 12,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 15,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 12,
+          "end" : 20
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 5,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 6,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "D ",
+        "range" : {
+          "start" : 0,
+          "end" : 2
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 2,
+          "end" : 5
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 5,
+          "end" : 13
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 14,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "D ",
+        "range" : {
+          "start" : 0,
+          "end" : 2
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 2,
+          "end" : 5
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 8,
+          "end" : 11
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 9,
+          "end" : 20
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 20,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 25,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 21,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 25,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 6,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 9,
+          "end" : 20
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 20,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 26,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 17,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 21,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 20,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 23,
+          "end" : 37
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 19,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 24,
+          "end" : 38
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 18,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 21,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 25,
+          "end" : 39
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 9,
+          "end" : 20
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 20,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 26,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 16,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 20,
+          "end" : 34
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 5,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 10,
+          "end" : 21
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 21,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 24,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 18,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 23,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 19,
+          "end" : 22
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 22,
+          "end" : 28
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 6,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 10,
+          "end" : 21
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 21,
+          "end" : 27
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 27,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "dice roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 15,
+          "end" : 21
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 21,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a dice roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 24,
+          "end" : 28
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 28,
+          "end" : 42
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "dice roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 15
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 15,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 18,
+          "end" : 24
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a dice roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 24
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 24,
+          "end" : 29
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 29,
+          "end" : 35
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 17
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 17,
+          "end" : 20
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 20,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 20
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 20,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 25,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "die roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 14,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 18,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a die roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces, please",
+        "range" : {
+          "start" : 26,
+          "end" : 40
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "die roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 14
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 14,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a die roll with ",
+        "range" : {
+          "start" : 0,
+          "end" : 23
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 23,
+          "end" : 26
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 26,
+          "end" : 32
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 18
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 18,
+          "end" : 24
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 24,
+          "end" : 30
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll the dice with ",
+        "range" : {
+          "start" : 0,
+          "end" : 19
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 25,
+          "end" : 31
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice with ",
+        "range" : {
+          "start" : 8,
+          "end" : 19
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 19,
+          "end" : 23
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 23,
+          "end" : 29
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a die with ",
+        "range" : {
+          "start" : 0,
+          "end" : 16
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 16,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " faces",
+        "range" : {
+          "start" : 19,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 12,
+          "end" : 17
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 17,
+          "end" : 25
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 6,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 12,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 18,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 10,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 14,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 5,
+          "end" : 9
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 12,
+          "end" : 18
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 18,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 9,
+          "end" : 13
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 13,
+          "end" : 21
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "play ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "three",
+        "range" : {
+          "start" : 5,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 13,
+          "end" : 16
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw ",
+        "range" : {
+          "start" : 0,
+          "end" : 6
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 6,
+          "end" : 10
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        }
+      }, {
+        "text" : "twelve",
+        "range" : {
+          "start" : 13,
+          "end" : 19
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "D ",
+        "range" : {
+          "start" : 0,
+          "end" : 2
+        }
+      }, {
+        "text" : "twenty",
+        "range" : {
+          "start" : 2,
+          "end" : 8
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice roll, please",
+        "range" : {
+          "start" : 8,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 11,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice roll, please",
+        "range" : {
+          "start" : 15,
+          "end" : 33
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "D ",
+        "range" : {
+          "start" : 0,
+          "end" : 2
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 2,
+          "end" : 5
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice roll",
+        "range" : {
+          "start" : 5,
+          "end" : 15
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 11,
+          "end" : 16
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " dice roll",
+        "range" : {
+          "start" : 16,
+          "end" : 26
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "throw a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 10
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 10,
+          "end" : 13
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "D ",
+        "range" : {
+          "start" : 0,
+          "end" : 2
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 2,
+          "end" : 6
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 6,
+          "end" : 14
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : ", please",
+        "range" : {
+          "start" : 14,
+          "end" : 22
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "D ",
+        "range" : {
+          "start" : 0,
+          "end" : 2
+        }
+      }, {
+        "text" : "eight",
+        "range" : {
+          "start" : 2,
+          "end" : 7
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "I want a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 11
+        }
+      }, {
+        "text" : "ten",
+        "range" : {
+          "start" : 11,
+          "end" : 14
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      }, {
+        "text" : " die roll",
+        "range" : {
+          "start" : 14,
+          "end" : 23
+        }
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll ",
+        "range" : {
+          "start" : 0,
+          "end" : 5
+        }
+      }, {
+        "text" : "two",
+        "range" : {
+          "start" : 5,
+          "end" : 8
+        },
+        "slot_id" : "2L81HB24o",
+        "from_autotagging" : false
+      }, {
+        "text" : " D ",
+        "range" : {
+          "start" : 8,
+          "end" : 11
+        }
+      }, {
+        "text" : "four",
+        "range" : {
+          "start" : 11,
+          "end" : 15
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    }, {
+      "data" : [ {
+        "text" : "roll a D ",
+        "range" : {
+          "start" : 0,
+          "end" : 9
+        }
+      }, {
+        "text" : "six",
+        "range" : {
+          "start" : 9,
+          "end" : 12
+        },
+        "slot_id" : "2ri28DMUS",
+        "from_autotagging" : false
+      } ],
+      "from_utterance_import" : true
+    } ]
+  },
+  "id" : "intent_E6wbmY6aVQv",
+  "config" : {
+    "displayName" : "RollDice",
+    "name" : "RollDice",
+    "description" : "You can ask Snips to roll a die or multiple dice.",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "amount",
+      "id" : "2L81HB24o",
+      "entityId" : "snips/number",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "The amount of dice to roll"
+    }, {
+      "name" : "faces",
+      "id" : "2ri28DMUS",
+      "entityId" : "snips/number",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "The number of faces on the dice"
+    } ],
+    "enabledByDefault" : true,
+    "exampleQueries" : [ "I want you to play three dice, please", "I want you to play the dice, please", "I want you to play a die, please", "I want you to play the die, please", "I want you to throw five dice, please", "I want you to throw the dice, please", "I want you to throw a die, please", "I want you to throw the die, please", "I want you to roll three dice, please", "I want you to roll the dice, please" ]
+  }
+}

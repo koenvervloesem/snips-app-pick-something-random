@@ -1,0 +1,19 @@
+{
+  "name" : "Pick something random",
+  "repository" : "https://github.com/koenvervloesem/snips-app-pick-something-random",
+  "changelog" : "Added link to French version of the app",
+  "description" : "You can ask for random numbers and dates, to flip a coin and to roll a die or multiple dice.\n\nSome examples:\n\n- \"Heads or tails\" / \"Flip a coin\"\n- \"Pick a number from 1 to 10\"\n- \"Choose a random date in June\"\n- \"Roll a die\" / \"4d12\" (dice notation)\n\nIf you want to pick something random many times, you could install my app Say it again ( https://console.snips.ai/store/en/skill_YoV709qZP3n ). Then you can for instance say \"Roll a die\" and then multiple times \"Again\" to roll a new die every time.\n\nWith more complex questions for a random date, the app sometimes returns the wrong dates. That's nothing I can change: it's the Snips NLU that is returning the wrong dates. I'm collecting some example questions with wrong output for a bug report. Please send me your examples if you want to help improve Snips.\n\nMore information can be found on the GitHub page of the actions code: https://github.com/koenvervloesem/snips-app-pick-something-random\n\nIf you have some suggestions for improvements, such as new training examples or new functionality, or if you found a bug, feel free to contact me at koen@vervloesem.eu and I'll be happy to add or correct it. And if you like my app, please rate it :-)\n\nThis app also exists in French: https://console.snips.ai/store/fr/skill_9Y1Avk694al",
+  "skillType" : "GITHUB",
+  "intents" : [ {
+    "id" : "intent_2mYQle0D8Z3"
+  }, {
+    "id" : "intent_B6nnPw0zBk9"
+  }, {
+    "id" : "intent_D6XbB1OyEk0a"
+  }, {
+    "id" : "intent_E6wbmY6aVQv"
+  } ],
+  "id" : "skill_NmlgOeBBO13",
+  "language" : "en",
+  "imageUrl" : "https://console.snips.ai/images/bundles/bundle-bank.svg"
+}
